@@ -16,9 +16,9 @@ Route::get('/', function () {
  
 	//Redis::set('lar','laravel!!!');
    // return Redis::get('lar');
-    	Redis::set('string:user:name','yao');
-	$pwd = Redis::get('string:user:name');
-	return $pwd;
+ //    	Redis::set('string:user:name','yao');
+	// $pwd = Redis::get('string:user:name');
+	// return $pwd;
 	return view('welcome');
 });
 
