@@ -9,7 +9,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class Controller extends Controller
 {
-   	 public function deploy(Request $request)
+   	public function deploy(Request $request)
     	{	
 		$commands = ['cd /data/laravel-dome','git pull'];
 		$signature = $request->header('X-hub-Signature');
