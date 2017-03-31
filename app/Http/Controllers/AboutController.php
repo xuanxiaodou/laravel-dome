@@ -10,6 +10,6 @@ class AboutController extends Controller
 {
     public function index()
     {
-    	return 'about1111';
+    	return view('welcome');
     }
 }
