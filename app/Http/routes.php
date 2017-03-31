@@ -21,9 +21,11 @@ Route::get('/', function () {
 	// return $pwd;
 	return view('welcome');
 });
+Route::get('/about','AboutController@index' );
+
+
 
 Route::post('/deploy','DeploymentController@deploy');
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
