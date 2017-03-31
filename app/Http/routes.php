@@ -21,6 +21,7 @@ Route::get('/', function () {
 	// return $pwd;
 	return view('welcome');
 });
+
 Route::get('/about','AboutController@index' );
 
 
